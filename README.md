@@ -1,6 +1,7 @@
 # Atividade da cadeira de Programação Web e Mobile
 
-Requisitos do projeto:
+## Requisitos do projeto:
+
 Crie um documento HTML (minha-rotina.html) com a sua “rotina”, isto é, o título da página (a aparecer na barra do navegador) deve ser o seunome e no corpo da página escreva um parágrafo descrevendo a sua rotina diária.
 
 Acima do parágrafo com a rotina, deve aparecer um título para a página com o seu nome.
