@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Rotina - Roberto Regis</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+
 </head>
 <body>
-$END$
+<header>
+  <h1>Minha Rotina Diária</h1>
+  <br>
+  <h2>Roberto Regis</h2>
+
+</header>
+
+<main>
+
+  <section class="multimidia">
+    <h2>Multimídia</h2>
+    <div class="foto">
+      <img src="../assets/fotoProProjeto.jpg" alt="Foto" width="300">
+    </div>
+    <button id="toggleVideo">Mostrar Vídeo</button>
+    <div class="video" style="display: none;">
+      <video controls width="400">
+        <source src="../assets/video.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+      </video>
+    </div>
+    <div class="musica">
+      <audio id="musica" autoplay loop style="display: none;">
+        <source src="../assets/Scandalous.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <script src="../scripts/audio.js"></script>
+
+  </section>
+  <section class="rotina">
+    <h2>Rotina</h2>
+      <p>
+        Acordo às <b>5:30 da manhã</b>. Levanto, vou até a cozinha e tomo o café da manhã. Como algo simples.
+        Tomo banho, visto algo adequado e saio. Assisto as aulas.
+        Quando terminam, volto para casa. Almoço coisas diferentes dependendo do dia.
+        Logo depois, um cochilo.
+        Acordo antes das <b>3 da tarde</b>. Levanto, tomo banho e me preparo para a próxima parte do dia.
+        Começo meus estudos. A duração varia dependendo do conteúdo que foi dado e do que me interessa.
+        Quando termino, o resto da noite serve pro lazer.
+        Jogos, um filme, um livro. Depende do dia e do meu humor.
+        Encerro meu dia às <b>9:30 da noite</b>.
+      </p>
+
+    </section>
+  <section class="citacao">
+    <blockquote>
+      <i>“Praticar humildade é cultivar o orgulho. Um método implica êxito, e êxito é arrogância.”</i> ~ Krishnamurti
+    </blockquote>
+  </section>
+</main>
+
+<footer>
+  <p><a href="../index.html">Voltar</a></p>
+</footer>
+<script src="../scripts/audio.js"></script>
+<script src="../scripts/videos.js"></script>
 </body>
 </html>
