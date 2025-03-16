@@ -1,5 +1,7 @@
 # Atividade da cadeira de Programação Web e Mobile
 
+Link da página: https://atvwebrotinaregis.surge.sh/rotina/rotina.html
+
 ## Requisitos do projeto:
 
 Crie um documento HTML (minha-rotina.html) com a sua “rotina”, isto é, o título da página (a aparecer na barra do navegador) deve ser o seunome e no corpo da página escreva um parágrafo descrevendo a sua rotina diária.
