@@ -75,3 +75,44 @@ footer {
     color: #FFD700;
     padding: 15px;
 }
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #E5C100;
+    text-decoration: underline;
+}
+
+
+footer a {
+    color: #FFD700;
+}
+
+footer a:hover {
+    color: #E5C100;
+}
+.gold-particle {
+    position: fixed;
+    top: -10px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: gold;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gold;
+    opacity: 0.8;
+    animation: fall linear infinite;
+}
+
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+
