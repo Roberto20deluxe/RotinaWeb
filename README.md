@@ -21,3 +21,11 @@ destaque em negrito as palavras mais importantes.
 
 inclua abaixo do parágrafo com sua rotina uma citação que goste muito (em itálico) e o nome do autor. Exemplo:
 “Só sei que nada sei.” ~Sócrates
+
+## Atividade do Portfólio
+
+Crie um site utilizando HTML / CSS / JS puro, ou React que seja o currículo / portfólio.
+
+Capriche no CSS e utilize JS para dar dinamicidade ao seu site e/ou integração com APIs.
+
+Você deve criar uma página extra no seu currículo / portfólio para demonstrar seu conhecimento de JS que é a implementação do Jogo Senha (https://en.wikipedia.org/wiki/Bulls_and_Cows) [Você deve exibir uma lista com todas as tentativas anteriores e o resultado de cada uma delas. A lista deve ficar em ordem reversa, para que a última tentativa fique mais próxima do input de digitação. Você deve colocar um botão que exiba um Alert com a combinação aleatória escolhida pelo site).
